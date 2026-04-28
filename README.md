@@ -1,6 +1,6 @@
 # 📜 zwivhuyaex-scriptable
 
-> A curated collection of [Scriptable](https://scriptable.app) widgets and scripts for iOS — built by [Zwivhuyaex Digital](https://github.com/zwivhuyaex).
+> A curated collection of [Scriptable](https://scriptable.app) widgets and scripts for iOS — built by [zwivhuyaex](https://github.com/zwivhuyaex).
 
 ![iOS](https://img.shields.io/badge/iOS-15%2B-black?style=flat-square&logo=apple)
 ![Scriptable](https://img.shields.io/badge/Scriptable-1.7%2B-blue?style=flat-square)

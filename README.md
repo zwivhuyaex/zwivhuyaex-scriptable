@@ -81,8 +81,7 @@ Displays your current battery percentage with a dynamic color indicator — gree
 
 **Customisation:** Edit the color thresholds or background color at the top of the script.
 
-
-javascript
+```javascript
 // Battery Monitor Widget
 // Add to Home Screen as a Small widget
 
@@ -118,6 +117,7 @@ label.centerAlignText();
 widget.presentSmall();
 Script.setWidget(widget);
 Script.complete();
+```
 
 ---
 
@@ -129,8 +129,7 @@ Counts down the number of days to any event you specify. When the day arrives it
 
 **Customisation:** Edit `TARGET_DATE` and `EVENT_NAME` at the top of the script.
 
-
-javascript
+```javascript
 // Date Countdown Widget
 const TARGET_DATE = new Date("2025-12-25");
 const EVENT_NAME  = "Christmas";
@@ -166,6 +165,7 @@ if (days > 0) {
 widget.presentSmall();
 Script.setWidget(widget);
 Script.complete();
+```
 
 ---
 
@@ -175,7 +175,7 @@ Script.complete();
 
 Fetches a fresh motivational quote each time the widget refreshes. Falls back to an error message if there is no internet connection.
 
-javascript
+```javascript
 // Random Quote Widget
 async function loadQuote() {
   let req = new Request("https://zenquotes.io/api/random");
